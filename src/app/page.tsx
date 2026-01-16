@@ -1,65 +1,89 @@
-import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="min-h-screen">
+      <section className="relative bg-gradient-to-br from-orange-200 to-orange-100 py-20 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-5xl md:text-6xl font-bold text-orange-900 mb-6">
+            Building Harmonies
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-xl md:text-2xl text-orange-800 mb-8">
+            An Evening of Community Music
           </p>
+          <div className="bg-white/90 rounded-lg p-6 max-w-2xl mx-auto mb-8 shadow-lg">
+            <div className="text-orange-800 space-y-2">
+              <p className="text-lg font-semibold">Join us for an unforgettable evening!</p>
+              <p className="text-md">📅 Saturday, March 15, 2024</p>
+              <p className="text-md">🕕 6:00 PM - 10:00 PM</p>
+              <p className="text-md">📍 Community Arts Center, 123 Harmony Street</p>
+            </div>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link 
+              href="/registration" 
+              className="bg-orange-600 text-white px-8 py-3 rounded-full hover:bg-orange-700 transition-colors font-semibold text-lg"
+            >
+              Register Now
+            </Link>
+            <Link 
+              href="/performers" 
+              className="bg-white text-orange-600 px-8 py-3 rounded-full hover:bg-orange-50 transition-colors font-semibold text-lg border-2 border-orange-600"
+            >
+              Meet the Performers
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-center text-orange-900 mb-12">
+            What to Expect
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center p-6 rounded-lg bg-orange-50">
+              <div className="text-4xl mb-4">🎤</div>
+              <h3 className="text-xl font-semibold text-orange-800 mb-2">Guest Performers</h3>
+              <p className="text-orange-700">
+                Experience incredible performances by talented local and regional singers sharing their gifts with our community.
+              </p>
+            </div>
+            <div className="text-center p-6 rounded-lg bg-orange-50">
+              <div className="text-4xl mb-4">🤝</div>
+              <h3 className="text-xl font-semibold text-orange-800 mb-2">Community Connection</h3>
+              <p className="text-orange-700">
+                Connect with neighbors and friends in a warm, welcoming atmosphere where music brings us all together.
+              </p>
+            </div>
+            <div className="text-center p-6 rounded-lg bg-orange-50">
+              <div className="text-4xl mb-4">🎵</div>
+              <h3 className="text-xl font-semibold text-orange-800 mb-2">Musical Variety</h3>
+              <p className="text-orange-700">
+                Enjoy a diverse range of musical styles from classical to contemporary, showcasing the incredible talent in our community.
+              </p>
+            </div>
+          </div>
         </div>
-      </main>
+      </section>
+
+      <section className="py-16 px-4 bg-orange-50">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-orange-900 mb-8">
+            Join Us in Building Harmonies
+          </h2>
+          <p className="text-lg text-orange-800 mb-8">
+            This special evening is more than just a concert – it's a celebration of community, 
+            connection, and the universal language of music that brings us all together.
+          </p>
+          <Link 
+            href="/about" 
+            className="bg-orange-600 text-white px-6 py-3 rounded-full hover:bg-orange-700 transition-colors font-semibold"
+          >
+            Learn More About Our Mission
+          </Link>
+        </div>
+      </section>
     </div>
-  );
+  )
 }
