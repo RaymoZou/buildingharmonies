@@ -14,9 +14,9 @@ export default function Home() {
           <div className="bg-white/90 rounded-lg p-6 max-w-2xl mx-auto mb-8 shadow-lg">
             <div className="text-orange-800 space-y-2">
               <p className="text-lg font-semibold">Join us for an unforgettable evening!</p>
-              <p className="text-md">📅 Saturday, March 15, 2024</p>
+              <p className="text-md">📅 Saturday, March 21, 2024</p>
               <p className="text-md">🕕 6:00 PM - 10:00 PM</p>
-              <p className="text-md">📍 Community Arts Center, 123 Harmony Street</p>
+              <p className="text-md">King's Cross Station - Platform 9 & 3/4</p>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
