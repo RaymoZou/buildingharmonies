@@ -134,7 +134,7 @@ export default function Home() {
               Register Now
             </Link>
             <a 
-              href="#performers" 
+              href="#info" 
               className="bg-white text-[#7086D1] px-8 py-3 rounded-full hover:bg-[#F7F2Eb] transition-colors font-semibold text-lg border-2 border-[#7086D1] inline-block"
             >
               Meet the Performers
@@ -174,7 +174,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="py-16 px-4 scroll-mt-16">
+      <section id="about-us" className="py-16 px-4 scroll-mt-16">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
             <h1 className="text-4xl font-bold text-[#2A3C83] mb-6">About Building Harmonies</h1>
@@ -247,13 +247,13 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a 
-                    href="#register" 
+                    href="#sign-up" 
                     className="bg-[#7086D1] text-white px-6 py-3 rounded-full hover:bg-[#5A6BB5] transition-colors font-semibold inline-block"
                   >
                     Register for Our Next Event
                   </a>
                   <a 
-                    href="#performers" 
+                    href="#info" 
                     className="bg-white text-[#7086D1] px-6 py-3 rounded-full hover:bg-[#F7F2Eb] transition-colors font-semibold border-2 border-[#7086D1] inline-block"
                   >
                     Meet Our Performers
@@ -265,7 +265,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="performers" className="py-16 px-4 bg-white scroll-mt-16">
+      <section id="info" className="py-16 px-4 bg-white scroll-mt-16">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-[#2A3C83] mb-4">Our Guest Performers</h1>
@@ -275,7 +275,7 @@ export default function Home() {
             carefully selected to create an unforgettable musical experience.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {performers.map((performer, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
@@ -300,7 +300,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-          
+
           <div className="bg-[#F7F2Eb] rounded-lg p-8 text-center">
             <h2 className="text-2xl font-bold text-[#2A3C83] mb-4">Experience Their Magic Live</h2>
             <p className="text-[#3A4A93] mb-6 max-w-2xl mx-auto">
@@ -310,20 +310,14 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="#register" 
+                href="#sign-up" 
                 className="bg-[#7086D1] text-white px-6 py-3 rounded-full hover:bg-[#5A6BB5] transition-colors font-semibold inline-block"
               >
                 Reserve Your Seat
               </a>
-              <a 
-                href="#schedule" 
-                className="bg-white text-[#7086D1] px-6 py-3 rounded-full hover:bg-[#F7F2Eb] transition-colors font-semibold border-2 border-[#7086D1] inline-block"
-              >
-                View Performance Schedule
-              </a>
             </div>
           </div>
-          
+
           <div className="mt-12 text-center">
             <h2 className="text-2xl font-bold text-[#2A3C83] mb-4">Want to Perform?</h2>
             <p className="text-[#3A4A93] mb-4">
@@ -340,7 +334,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="schedule" className="py-16 px-4 scroll-mt-16">
+      <section id="info" className="py-16 px-4 scroll-mt-16">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-[#2A3C83] mb-4">Event Schedule</h1>
@@ -442,11 +436,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="register" className="py-16 px-4 bg-[#F7F2Eb] scroll-mt-16">
+      <section id="sign-up" className="py-16 px-4 bg-[#F7F2Eb] scroll-mt-16">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl font-bold text-[#2A3C83] mb-4">Register for Building Harmonies</h1>
+          <h1 className="text-4xl font-bold text-[#2A3C83] mb-4">Sign Up for Building Harmonies</h1>
           <p className="text-lg text-[#3A4A93] mb-8">
-            Join us for an unforgettable evening of music and community. Registration is required and can be completed through our event partner.
+            Join us for an unforgettable evening of music and community. Sign up is required and can be completed through our event partner.
           </p>
           
           <div className="bg-white rounded-lg shadow-lg p-8 mb-8">

@@ -14,20 +14,14 @@ export default function Header() {
           </a>
           
           <div className="hidden md:flex space-x-8">
-            <a href="#home" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
-              Home
+            <a href="#about-us" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
+              About Us
             </a>
-            <a href="#about" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
-              About
+            <a href="#info" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
+              Info
             </a>
-            <a href="#performers" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
-              Performers
-            </a>
-            <a href="#schedule" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
-              Schedule
-            </a>
-            <a href="#register" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
-              Register
+            <a href="#sign-up" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
+              Sign Up
             </a>
           </div>
           
@@ -43,20 +37,14 @@ export default function Header() {
         
         {isMenuOpen && (
           <div className="md:hidden py-4">
-            <a href="#home" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
-              Home
+            <a href="#about-us" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
+              About Us
             </a>
-            <a href="#about" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
-              About
+            <a href="#info" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
+              Info
             </a>
-            <a href="#performers" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
-              Performers
-            </a>
-            <a href="#schedule" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
-              Schedule
-            </a>
-            <a href="#register" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
-              Register
+            <a href="#sign-up" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
+              Sign Up
             </a>
           </div>
         )}
