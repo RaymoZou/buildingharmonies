@@ -2,41 +2,41 @@ import Image from 'next/image'
 
 const performers = [
   {
-    name: "Sarah Mitchell",
+    name: "Bryce",
     role: "Soprano",
-    bio: "A classically trained soprano with a passion for bringing opera to community audiences. Sarah has performed with regional opera companies and teaches voice at the local music academy.",
-    specialties: ["Classical", "Opera", "Musical Theater"]
+    bio: "bro can sing. source: trust me",
+    specialties: ["Guitar", "Trumpet", "Singing", "Chamber Choir"]
   },
   {
-    name: "Marcus Johnson",
+    name: "Raymond",
     role: "Jazz Vocalist",
-    bio: "Smooth jazz vocalist with a soulful voice that captivates audiences. Marcus has been performing for over 15 years and brings his unique interpretation of jazz standards to every performance.",
+    bio: "you didn't know raymond did jazz singing? i didn't either - anyways he was the only one we could afford so let's give him a shot.",
     specialties: ["Jazz", "Blues", "R&B"]
   },
-  {
-    name: "Elena Rodriguez",
-    role: "Folk Singer-Songwriter",
-    bio: "Storyteller through song, Elena crafts beautiful melodies that reflect her heritage and life experiences. Her heartfelt performances have earned her a loyal following throughout the region.",
-    specialties: ["Folk", "Country", "Acoustic"]
-  },
-  {
-    name: "David Chen",
-    role: "Contemporary Vocalist",
-    bio: "Versatile performer with experience ranging from pop to alternative rock. David's dynamic stage presence and powerful vocals have made him a standout in the local music scene.",
-    specialties: ["Pop", "Rock", "Contemporary"]
-  },
-  {
-    name: "Maria Thompson",
-    role: "Gospel Singer",
-    bio: "Inspirational gospel vocalist whose performances lift spirits and touch hearts. Maria leads her church choir and brings joy to every venue she graces with her voice.",
-    specialties: ["Gospel", "Spiritual", "Inspirational"]
-  },
-  {
-    name: "James Wilson",
-    role: "Baritone",
-    bio: "Rich, warm baritone voice with extensive experience in choral music and solo performances. James is a music educator who believes in the power of music to build community.",
-    specialties: ["Classical", "Choral", "Barbershop"]
-  }
+  // {
+  //   name: "Elena Rodriguez",
+  //   role: "Folk Singer-Songwriter",
+  //   bio: "Storyteller through song, Elena crafts beautiful melodies that reflect her heritage and life experiences. Her heartfelt performances have earned her a loyal following throughout the region.",
+  //   specialties: ["Folk", "Country", "Acoustic"]
+  // },
+  // {
+  //   name: "David Chen",
+  //   role: "Contemporary Vocalist",
+  //   bio: "Versatile performer with experience ranging from pop to alternative rock. David's dynamic stage presence and powerful vocals have made him a standout in the local music scene.",
+  //   specialties: ["Pop", "Rock", "Contemporary"]
+  // },
+  // {
+  //   name: "Maria Thompson",
+  //   role: "Gospel Singer",
+  //   bio: "Inspirational gospel vocalist whose performances lift spirits and touch hearts. Maria leads her church choir and brings joy to every venue she graces with her voice.",
+  //   specialties: ["Gospel", "Spiritual", "Inspirational"]
+  // },
+  // {
+  //   name: "James Wilson",
+  //   role: "Baritone",
+  //   bio: "Rich, warm baritone voice with extensive experience in choral music and solo performances. James is a music educator who believes in the power of music to build community.",
+  //   specialties: ["Classical", "Choral", "Barbershop"]
+  // }
 ]
 
 export default function Performers() {
