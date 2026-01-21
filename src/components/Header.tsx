@@ -1,6 +1,5 @@
 'use client'
 
-import Link from 'next/link'
 import { useState } from 'react'
 
 export default function Header() {
@@ -10,26 +9,26 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-[#FFF9F0] shadow-md z-50">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-2xl font-bold text-[#3A4A93]">
+          <a href="#home" className="text-2xl font-bold text-[#3A4A93]">
             Building Harmonies
-          </Link>
+          </a>
           
           <div className="hidden md:flex space-x-8">
-            <Link href="/" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors">
+            <a href="#home" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
               Home
-            </Link>
-            <Link href="/about" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors">
+            </a>
+            <a href="#about" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
               About
-            </Link>
-            <Link href="/performers" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors">
+            </a>
+            <a href="#performers" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
               Performers
-            </Link>
-            <Link href="/schedule" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors">
+            </a>
+            <a href="#schedule" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
               Schedule
-            </Link>
-            <Link href="/registration" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors">
+            </a>
+            <a href="#register" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
               Register
-            </Link>
+            </a>
           </div>
           
           <button
@@ -44,21 +43,21 @@ export default function Header() {
         
         {isMenuOpen && (
           <div className="md:hidden py-4">
-            <Link href="/" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]">
+            <a href="#home" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
               Home
-            </Link>
-            <Link href="/about" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]">
+            </a>
+            <a href="#about" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
               About
-            </Link>
-            <Link href="/performers" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]">
+            </a>
+            <a href="#performers" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
               Performers
-            </Link>
-            <Link href="/schedule" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]">
+            </a>
+            <a href="#schedule" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
               Schedule
-            </Link>
-            <Link href="https://partiful.com/e/zuExqa7fxoC0ggk7BVsC?" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]">
+            </a>
+            <a href="#register" className="block py-2 text-[#4A58A3] hover:text-[#2A3C83]" onClick={() => setIsMenuOpen(false)}>
               Register
-            </Link>
+            </a>
           </div>
         )}
       </nav>

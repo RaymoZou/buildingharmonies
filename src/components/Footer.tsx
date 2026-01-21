@@ -11,10 +11,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-[#3A4A93] mb-4">Quick Links</h3>
             <ul className="space-y-2 text-[#4A58A3]">
-              <li><a href="/about" className="hover:text-[#2A3C83]">About Us</a></li>
-              <li><a href="/performers" className="hover:text-[#2A3C83]">Guest Performers</a></li>
-              <li><a href="/schedule" className="hover:text-[#2A3C83]">Event Schedule</a></li>
-              <li><a href="https://partiful.com/e/zuExqa7fxoC0ggk7BVsC?" className="hover:text-[#2A3C83]">Registration</a></li>
+              <li><a href="#about" className="hover:text-[#2A3C83]">About Us</a></li>
+              <li><a href="#performers" className="hover:text-[#2A3C83]">Guest Performers</a></li>
+              <li><a href="#schedule" className="hover:text-[#2A3C83]">Event Schedule</a></li>
+              <li><a href="#register" className="hover:text-[#2A3C83]">Registration</a></li>
             </ul>
           </div>
           
