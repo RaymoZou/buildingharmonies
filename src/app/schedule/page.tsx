@@ -70,13 +70,13 @@ const schedule = [
 ]
 
 const eventTypeStyles = {
-  reception: "border-orange-300 bg-orange-50",
-  opening: "border-blue-300 bg-blue-50",
-  performance: "border-purple-300 bg-purple-50",
-  interactive: "border-green-300 bg-green-50",
-  break: "border-gray-300 bg-gray-50",
-  finale: "border-red-300 bg-red-50",
-  closing: "border-orange-300 bg-orange-50"
+  reception: "border-[#7086D1] bg-[#F7F2Eb]",
+  opening: "border-[#5A6BB5] bg-[#BAD6EB]",
+  performance: "border-[#8FAAD6] bg-[#FFF9F0]",
+  interactive: "border-[#7086D1] bg-[#E6F0F8]",
+  break: "border-[#BAD6EB] bg-[#F0F5FC]",
+  finale: "border-[#7086D1] bg-[#D0E4F8]",
+  closing: "border-[#7086D1] bg-[#F7F2Eb]"
 }
 
 const eventTypeIcons = {
@@ -94,8 +94,8 @@ export default function Schedule() {
     <div className="min-h-screen py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-orange-900 mb-4">Event Schedule</h1>
-          <p className="text-lg text-orange-800 max-w-3xl mx-auto">
+          <h1 className="text-4xl font-bold text-[#2A3C83] mb-4">Event Schedule</h1>
+          <p className="text-lg text-[#3A4A93] max-w-3xl mx-auto">
             Join us for a carefully curated evening of music, community, and connection. 
             Here's what you can expect throughout our Building Harmonies event.
           </p>
@@ -103,9 +103,9 @@ export default function Schedule() {
         
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <div className="mb-6">
-            <h2 className="text-2xl font-bold text-orange-900 mb-2">Saturday, March 15, 2024</h2>
-            <p className="text-orange-700">Community Arts Center, 123 Harmony Street</p>
-            <p className="text-orange-600">Duration: 5:30 PM - 10:00 PM</p>
+            <h2 className="text-2xl font-bold text-[#2A3C83] mb-2">Saturday, March 15, 2024</h2>
+            <p className="text-[#4A58A3]">Community Arts Center, 123 Harmony Street</p>
+            <p className="text-[#7086D1]">Duration: 5:30 PM - 10:00 PM</p>
           </div>
           
           <div className="space-y-4">
@@ -120,14 +120,14 @@ export default function Schedule() {
                   </div>
                   <div className="flex-grow">
                     <div className="flex items-center gap-3 mb-2">
-                      <span className="font-bold text-orange-900 min-w-[80px]">
+                      <span className="font-bold text-[#2A3C83] min-w-[80px]">
                         {item.time}
                       </span>
-                      <span className="font-semibold text-orange-800">
+                      <span className="font-semibold text-[#3A4A93]">
                         {item.title}
                       </span>
                     </div>
-                    <p className="text-orange-700 text-sm leading-relaxed">
+                    <p className="text-[#4A58A3] text-sm leading-relaxed">
                       {item.description}
                     </p>
                   </div>
@@ -138,9 +138,9 @@ export default function Schedule() {
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 mb-8">
-          <div className="bg-orange-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold text-orange-900 mb-4">🎫 What's Included</h3>
-            <ul className="space-y-2 text-orange-700">
+          <div className="bg-[#F7F2Eb] rounded-lg p-6">
+            <h3 className="text-xl font-bold text-[#2A3C83] mb-4">🎫 What's Included</h3>
+            <ul className="space-y-2 text-[#4A58A3]">
               <li className="flex items-center gap-2">
                 <span className="text-green-600">✓</span>
                 All performances throughout the evening
@@ -164,41 +164,41 @@ export default function Schedule() {
             </ul>
           </div>
           
-          <div className="bg-orange-50 rounded-lg p-6">
-            <h3 className="text-xl font-bold text-orange-900 mb-4">📝 What to Bring</h3>
-            <ul className="space-y-2 text-orange-700">
+          <div className="bg-[#F7F2Eb] rounded-lg p-6">
+            <h3 className="text-xl font-bold text-[#2A3C83] mb-4">📝 What to Bring</h3>
+            <ul className="space-y-2 text-[#4A58A3]">
               <li className="flex items-center gap-2">
-                <span className="text-orange-600">•</span>
+                <span className="text-[#7086D1]">•</span>
                 Your ticket confirmation (digital or printed)
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-orange-600">•</span>
+                <span className="text-[#7086D1]">•</span>
                 Comfortable seating for the reception area
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-orange-600">•</span>
+                <span className="text-[#7086D1]">•</span>
                 Your voice for the community sing-along!
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-orange-600">•</span>
+                <span className="text-[#7086D1]">•</span>
                 A friend or family member to share the experience
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-orange-600">•</span>
+                <span className="text-[#7086D1]">•</span>
                 An open heart ready to connect through music
               </li>
             </ul>
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-orange-100 to-orange-50 rounded-lg p-8 text-center">
-          <h2 className="text-2xl font-bold text-orange-900 mb-4">Ready to Join Us?</h2>
-          <p className="text-orange-800 mb-6">
+        <div className="bg-gradient-to-br from-[#FFF9F0] to-[#F7F2Eb] rounded-lg p-8 text-center">
+          <h2 className="text-2xl font-bold text-[#2A3C83] mb-4">Ready to Join Us?</h2>
+          <p className="text-[#3A4A93] mb-6">
             Don't miss this wonderful opportunity to experience the power of music bringing our community together.
           </p>
           <Link 
-            href="/registration" 
-            className="bg-orange-600 text-white px-8 py-3 rounded-full hover:bg-orange-700 transition-colors font-semibold text-lg inline-block"
+            href="https://partiful.com/e/zuExqa7fxoC0ggk7BVsC?" 
+            className="bg-[#7086D1] text-white px-8 py-3 rounded-full hover:bg-[#5A6BB5] transition-colors font-semibold text-lg inline-block"
           >
             Register Now
           </Link>

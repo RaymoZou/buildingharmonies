@@ -35,23 +35,23 @@ export default function Registration() {
         <div className="max-w-2xl mx-auto">
           <div className="bg-white rounded-lg shadow-lg p-8 text-center">
             <div className="text-6xl mb-4">🎉</div>
-            <h1 className="text-3xl font-bold text-orange-900 mb-4">Registration Successful!</h1>
-            <p className="text-orange-800 mb-6">
+            <h1 className="text-3xl font-bold text-[#2A3C83] mb-4">Registration Successful!</h1>
+            <p className="text-[#3A4A93] mb-6">
               Thank you for registering for Building Harmonies! We've received your registration and will send a confirmation email to {formData.email} shortly.
             </p>
-            <div className="bg-orange-50 rounded-lg p-6 mb-6">
-              <h3 className="font-semibold text-orange-900 mb-2">Event Details</h3>
-              <p className="text-orange-700">📅 Saturday, March 15, 2024</p>
-              <p className="text-orange-700">🕕 6:00 PM - 10:00 PM</p>
-              <p className="text-orange-700">📍 Community Arts Center, 123 Harmony Street</p>
-              <p className="text-orange-700">🎫 {formData.numberOfTickets} ticket(s) reserved</p>
+            <div className="bg-[#F7F2Eb] rounded-lg p-6 mb-6">
+              <h3 className="font-semibold text-[#2A3C83] mb-2">Event Details</h3>
+              <p className="text-[#4A58A3]">📅 Saturday, March 15, 2024</p>
+              <p className="text-[#4A58A3]">🕕 6:00 PM - 10:00 PM</p>
+              <p className="text-[#4A58A3]">📍 Community Arts Center, 123 Harmony Street</p>
+              <p className="text-[#4A58A3]">🎫 {formData.numberOfTickets} ticket(s) reserved</p>
             </div>
-            <p className="text-orange-700 mb-4">
+            <p className="text-[#4A58A3] mb-4">
               We can't wait to see you there! If you have any questions, please don't hesitate to contact us at harmony@community.org.
             </p>
             <a 
               href="/" 
-              className="bg-orange-600 text-white px-6 py-3 rounded-full hover:bg-orange-700 transition-colors font-semibold inline-block"
+              className="bg-[#7086D1] text-white px-6 py-3 rounded-full hover:bg-[#5A6BB5] transition-colors font-semibold inline-block"
             >
               Return to Homepage
             </a>
@@ -65,8 +65,8 @@ export default function Registration() {
     <div className="min-h-screen py-12 px-4">
       <div className="max-w-2xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-orange-900 mb-4">Register for Building Harmonies</h1>
-          <p className="text-lg text-orange-800">
+          <h1 className="text-4xl font-bold text-[#2A3C83] mb-4">Register for Building Harmonies</h1>
+          <p className="text-lg text-[#3A4A93]">
             Join us for an unforgettable evening of music and community. Registration is free but required to attend.
           </p>
         </div>
@@ -75,7 +75,7 @@ export default function Registration() {
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                <label htmlFor="firstName" className="block text-sm font-medium text-orange-800 mb-2">
+                <label htmlFor="firstName" className="block text-sm font-medium text-[#3A4A93] mb-2">
                   First Name *
                 </label>
                 <input
@@ -85,12 +85,12 @@ export default function Registration() {
                   required
                   value={formData.firstName}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-orange-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-orange-900"
+                  className="w-full px-4 py-2 border border-[#BAD6EB] rounded-lg focus:ring-2 focus:ring-[#7086D1] focus:border-[#7086D1] text-[#2A3C83]"
                 />
               </div>
               
               <div>
-                <label htmlFor="lastName" className="block text-sm font-medium text-orange-800 mb-2">
+                <label htmlFor="lastName" className="block text-sm font-medium text-[#3A4A93] mb-2">
                   Last Name *
                 </label>
                 <input
@@ -100,13 +100,13 @@ export default function Registration() {
                   required
                   value={formData.lastName}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border border-orange-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-orange-900"
+                  className="w-full px-4 py-2 border border-[#BAD6EB] rounded-lg focus:ring-2 focus:ring-[#7086D1] focus:border-[#7086D1] text-[#2A3C83]"
                 />
               </div>
             </div>
             
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-orange-800 mb-2">
+              <label htmlFor="email" className="block text-sm font-medium text-[#3A4A93] mb-2">
                 Email Address *
               </label>
               <input
@@ -116,12 +116,12 @@ export default function Registration() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-orange-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-orange-900"
+                className="w-full px-4 py-2 border border-[#BAD6EB] rounded-lg focus:ring-2 focus:ring-[#7086D1] focus:border-[#7086D1] text-[#2A3C83]"
               />
             </div>
             
             <div>
-              <label htmlFor="phone" className="block text-sm font-medium text-orange-800 mb-2">
+              <label htmlFor="phone" className="block text-sm font-medium text-[#3A4A93] mb-2">
                 Phone Number
               </label>
               <input
@@ -130,12 +130,12 @@ export default function Registration() {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-orange-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-orange-900"
+                className="w-full px-4 py-2 border border-[#BAD6EB] rounded-lg focus:ring-2 focus:ring-[#7086D1] focus:border-[#7086D1] text-[#2A3C83]"
               />
             </div>
             
             <div>
-              <label htmlFor="numberOfTickets" className="block text-sm font-medium text-orange-800 mb-2">
+              <label htmlFor="numberOfTickets" className="block text-sm font-medium text-[#3A4A93] mb-2">
                 Number of Tickets *
               </label>
               <select
@@ -144,7 +144,7 @@ export default function Registration() {
                 required
                 value={formData.numberOfTickets}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-orange-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-orange-900"
+                className="w-full px-4 py-2 border border-[#BAD6EB] rounded-lg focus:ring-2 focus:ring-[#7086D1] focus:border-[#7086D1] text-[#2A3C83]"
               >
                 <option value="1">1 Ticket</option>
                 <option value="2">2 Tickets</option>
@@ -155,7 +155,7 @@ export default function Registration() {
             </div>
             
             <div>
-              <label htmlFor="hearAboutUs" className="block text-sm font-medium text-orange-800 mb-2">
+              <label htmlFor="hearAboutUs" className="block text-sm font-medium text-[#3A4A93] mb-2">
                 How did you hear about this event?
               </label>
               <select
@@ -163,7 +163,7 @@ export default function Registration() {
                 name="hearAboutUs"
                 value={formData.hearAboutUs}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-orange-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-orange-900"
+                className="w-full px-4 py-2 border border-[#BAD6EB] rounded-lg focus:ring-2 focus:ring-[#7086D1] focus:border-[#7086D1] text-[#2A3C83]"
               >
                 <option value="">Please select...</option>
                 <option value="social-media">Social Media</option>
@@ -176,7 +176,7 @@ export default function Registration() {
             </div>
             
             <div>
-              <label htmlFor="specialRequests" className="block text-sm font-medium text-orange-800 mb-2">
+              <label htmlFor="specialRequests" className="block text-sm font-medium text-[#3A4A93] mb-2">
                 Special Requests or Accommodations
               </label>
               <textarea
@@ -186,13 +186,13 @@ export default function Registration() {
                 value={formData.specialRequests}
                 onChange={handleChange}
                 placeholder="Let us know if you have any special requests or need accommodations..."
-                className="w-full px-4 py-2 border border-orange-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-orange-900"
+                className="w-full px-4 py-2 border border-[#BAD6EB] rounded-lg focus:ring-2 focus:ring-[#7086D1] focus:border-[#7086D1] text-[#2A3C83]"
               />
             </div>
             
-            <div className="bg-orange-50 rounded-lg p-4">
-              <h3 className="font-semibold text-orange-900 mb-2">Event Details</h3>
-              <div className="space-y-1 text-sm text-orange-700">
+            <div className="bg-[#F7F2Eb] rounded-lg p-4">
+              <h3 className="font-semibold text-[#2A3C83] mb-2">Event Details</h3>
+              <div className="space-y-1 text-sm text-[#4A58A3]">
                 <p>📅 Saturday, March 15, 2024</p>
                 <p>🕕 6:00 PM - 10:00 PM (Doors open at 5:30 PM)</p>
                 <p>📍 Community Arts Center, 123 Harmony Street</p>
@@ -206,16 +206,16 @@ export default function Registration() {
                 type="checkbox"
                 id="agreement"
                 required
-                className="mt-1 text-orange-600 focus:ring-orange-500"
+                className="mt-1 text-[#7086D1] focus:ring-[#7086D1]"
               />
-              <label htmlFor="agreement" className="text-sm text-orange-700">
+              <label htmlFor="agreement" className="text-sm text-[#4A58A3]">
                 I understand that registration is required and that I will receive a confirmation email with event details.
               </label>
             </div>
             
             <button
               type="submit"
-              className="w-full bg-orange-600 text-white px-6 py-3 rounded-full hover:bg-orange-700 transition-colors font-semibold text-lg"
+              className="w-full bg-[#7086D1] text-white px-6 py-3 rounded-full hover:bg-[#5A6BB5] transition-colors font-semibold text-lg"
             >
               Complete Registration
             </button>
@@ -223,11 +223,11 @@ export default function Registration() {
         </div>
         
         <div className="mt-8 text-center">
-          <p className="text-orange-700 mb-2">
-            Questions? Contact us at <a href="mailto:harmony@community.org" className="text-orange-600 hover:text-orange-800 underline">harmony@community.org</a>
+          <p className="text-[#4A58A3] mb-2">
+            Questions? Contact us at <a href="mailto:harmony@community.org" className="text-[#7086D1] hover:text-[#3A4A93] underline">harmony@community.org</a>
           </p>
-          <p className="text-orange-700">
-            or call us at <a href="tel:5551234567" className="text-orange-600 hover:text-orange-800 underline">(555) 123-4567</a>
+          <p className="text-[#4A58A3]">
+            or call us at <a href="tel:5551234567" className="text-[#7086D1] hover:text-[#3A4A93] underline">(555) 123-4567</a>
           </p>
         </div>
       </div>

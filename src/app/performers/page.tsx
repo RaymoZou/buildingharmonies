@@ -44,8 +44,8 @@ export default function Performers() {
     <div className="min-h-screen py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-orange-900 mb-4">Our Guest Performers</h1>
-          <p className="text-lg text-orange-800 max-w-3xl mx-auto">
+          <h1 className="text-4xl font-bold text-[#2A3C83] mb-4">Our Guest Performers</h1>
+          <p className="text-lg text-[#3A4A93] max-w-3xl mx-auto">
             We're thrilled to showcase an incredible lineup of talented singers who bring diverse 
             musical styles and perspectives to our community celebration. Each performer has been 
             carefully selected to create an unforgettable musical experience.
@@ -55,18 +55,18 @@ export default function Performers() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {performers.map((performer, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="bg-gradient-to-br from-orange-200 to-orange-100 h-48 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#BAD6EB] to-[#FFF9F0] h-48 flex items-center justify-center">
                 <div className="text-6xl">🎤</div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-orange-900 mb-2">{performer.name}</h3>
-                <p className="text-orange-600 font-semibold mb-3">{performer.role}</p>
-                <p className="text-orange-700 mb-4 text-sm leading-relaxed">{performer.bio}</p>
+                <h3 className="text-xl font-bold text-[#2A3C83] mb-2">{performer.name}</h3>
+                <p className="text-[#7086D1] font-semibold mb-3">{performer.role}</p>
+                <p className="text-[#4A58A3] mb-4 text-sm leading-relaxed">{performer.bio}</p>
                 <div className="flex flex-wrap gap-2">
                   {performer.specialties.map((specialty, specIndex) => (
                     <span 
                       key={specIndex}
-                      className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-xs font-medium"
+                      className="bg-[#FFF9F0] text-[#3A4A93] px-3 py-1 rounded-full text-xs font-medium"
                     >
                       {specialty}
                     </span>
@@ -77,9 +77,9 @@ export default function Performers() {
           ))}
         </div>
         
-        <div className="bg-orange-50 rounded-lg p-8 text-center">
-          <h2 className="text-2xl font-bold text-orange-900 mb-4">Experience Their Magic Live</h2>
-          <p className="text-orange-800 mb-6 max-w-2xl mx-auto">
+        <div className="bg-[#F7F2Eb] rounded-lg p-8 text-center">
+          <h2 className="text-2xl font-bold text-[#2A3C83] mb-4">Experience Their Magic Live</h2>
+          <p className="text-[#3A4A93] mb-6 max-w-2xl mx-auto">
             Each performer will bring their unique style and energy to create an evening of 
             unforgettable music. From classical to contemporary, jazz to folk – there's something 
             for every music lover in this diverse showcase of local talent.
@@ -87,13 +87,13 @@ export default function Performers() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="/registration" 
-              className="bg-orange-600 text-white px-6 py-3 rounded-full hover:bg-orange-700 transition-colors font-semibold inline-block"
+              className="bg-[#7086D1] text-white px-6 py-3 rounded-full hover:bg-[#5A6BB5] transition-colors font-semibold inline-block"
             >
               Reserve Your Seat
             </a>
             <a 
               href="/schedule" 
-              className="bg-white text-orange-600 px-6 py-3 rounded-full hover:bg-orange-50 transition-colors font-semibold border-2 border-orange-600 inline-block"
+              className="bg-white text-[#7086D1] px-6 py-3 rounded-full hover:bg-[#F7F2Eb] transition-colors font-semibold border-2 border-[#7086D1] inline-block"
             >
               View Performance Schedule
             </a>
@@ -101,14 +101,14 @@ export default function Performers() {
         </div>
         
         <div className="mt-12 text-center">
-          <h2 className="text-2xl font-bold text-orange-900 mb-4">Want to Perform?</h2>
-          <p className="text-orange-800 mb-4">
+          <h2 className="text-2xl font-bold text-[#2A3C83] mb-4">Want to Perform?</h2>
+          <p className="text-[#3A4A93] mb-4">
             Are you a talented vocalist interested in performing at future Building Harmonies events? 
             We'd love to hear from you!
           </p>
           <a 
             href="mailto:harmony@community.org" 
-            className="text-orange-600 hover:text-orange-800 font-semibold underline"
+            className="text-[#7086D1] hover:text-[#3A4A93] font-semibold underline"
           >
             Contact us to learn more about performing opportunities
           </a>
