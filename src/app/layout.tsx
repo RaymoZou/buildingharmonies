@@ -1,40 +1,52 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Barrio, Cedarville_Cursive } from "next/font/google";
 import "./globals.css";
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
+const barrio = Barrio({
+    weight: "400",
+    variable: "--font-barrio",
+    subsets: ['latin'],
+})
+
+const cedarville_cursive = Cedarville_Cursive({
+    weight: "400",
+    variable: "--font-cedarville-cursive",
+    subsets: ['latin'],
+})
+
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+    variable: "--font-geist-sans",
+    subsets: ["latin"],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+    variable: "--font-geist-mono",
+    subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Building Harmonies - Community Music Event",
-  description: "Join us for an evening of beautiful music as talented guest singers bring our community together through song.",
+    title: "Building Harmonies - Community Music Event",
+    description: "Join us for an evening of beautiful music as talented guest singers bring our community together through song.",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-[#F7F2Eb]`}
-      >
-        <Header />
-        <main className="pt-16">
-          {children}
-        </main>
-        <Footer />
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body
+                className={`${geistSans.variable} ${geistMono.variable} ${barrio.variable} ${cedarville_cursive.variable} antialiased min-h-screen bg-[#F7F2Eb]`}
+            >
+                <Header />
+                <main className="pt-16">
+                    {children}
+                </main>
+                <Footer />
+            </body>
+        </html>
+    );
 }

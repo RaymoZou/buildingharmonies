@@ -9,18 +9,18 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-[#FFF9F0] shadow-md z-50">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="text-2xl font-bold text-[#3A4A93]">
+          <a href="#home" className="font-barrio text-2xl font-bold text-[#3A4A93]">
             Building Harmonies
           </a>
           
           <div className="hidden md:flex space-x-8">
-            <a href="#about-us" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
+            <a href="#about-us" className="hover:underline text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
               About Us
             </a>
-            <a href="#info" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
+            <a href="#info" className="hover:underline text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
               Info
             </a>
-            <a href="#sign-up" className="text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
+            <a href="#sign-up" className="hover:underline text-[#4A58A3] hover:text-[#2A3C83] transition-colors" onClick={() => setIsMenuOpen(false)}>
               Sign Up
             </a>
           </div>
