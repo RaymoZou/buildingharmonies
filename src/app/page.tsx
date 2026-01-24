@@ -114,7 +114,7 @@ export default function Home() {
                     <h1 className="font-barrio text-6xl md:text-7xl font-bold text-[#2A3C83] mb-6">
                         Building Harmonies
                     </h1>
-                    <p className="font-bold underline text-xl md:text-2xl text-[#3A4A93] mb-8">
+                    <p className="font-cedarville-cursive font-bold text-xl md:text-2xl text-[#3A4A93] mb-8">
                         A Community Night of Connection through Song
                     </p>
                     <div className="bg-white/90 rounded-lg p-6 max-w-2xl mx-auto mb-8 shadow-lg">
@@ -255,9 +255,9 @@ export default function Home() {
                         <div className="mb-8">
                             <h2 className="text-2xl font-bold text-[#2A3C83] mb-2">Event Details</h2>
                             <div className="space-y-2 text-left bg-[#F7F2Eb] rounded-lg p-6">
-                                <p className="text-[#4A58A3]">📅 Saturday, March 15, 2024</p>
+                                <p className="text-[#4A58A3]">📅 Saturday, March 21, 2026</p>
                                 <p className="text-[#4A58A3]">🕕 6:00 PM - 10:00 PM (Doors open at 5:30 PM)</p>
-                                <p className="text-[#4A58A3]">📍 Community Arts Center, 123 Harmony Street</p>
+                                <p className="text-[#4A58A3]">📍 Creekside Community Centre, 1 Athletes Way, Vancouver</p>
                                 <p className="text-[#4A58A3]">🅿️ Free parking available on-site</p>
                                 <p className="text-[#4A58A3]">🍽️ Light refreshments included</p>
                             </div>
