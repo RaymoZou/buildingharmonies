@@ -27,8 +27,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Building Harmonies - Community Music Event",
-    description: "Join us for an evening of beautiful music as talented guest singers bring our community together through song.",
+    title: "Building Harmonies - A Community Night of Connection through Song",
+    description: "Join us on Saturday, March 21, 2026 for a fun night of singing (and dinner!) - RSVP now!",
 };
 
 export default function RootLayout({
