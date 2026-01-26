@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Barrio, Cedarville_Cursive } from "next/font/google";
+import { Geist, Geist_Mono, Titan_One, Sniglet } from "next/font/google";
 import "./globals.css";
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
-const barrio = Barrio({
+const titan_one = Titan_One({
     weight: "400",
-    variable: "--font-barrio",
+    variable: "--font-titan",
     subsets: ['latin'],
 })
 
-const cedarville_cursive = Cedarville_Cursive({
+const sniglet = Sniglet({
     weight: "400",
-    variable: "--font-cedarville-cursive",
+    variable: "--font-sniglet",
     subsets: ['latin'],
 })
 
@@ -39,7 +39,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} ${barrio.variable} ${cedarville_cursive.variable} antialiased min-h-screen bg-[#F7F2Eb]`}
+                className={`${geistSans.variable} ${titan_one.variable} ${geistMono.variable}  ${sniglet.variable} antialiased min-h-screen bg-[#F7F2Eb]`}
             >
                 <Header />
                 <main className="pt-16">

@@ -111,10 +111,10 @@ export default function Home() {
         <div className="min-h-screen">
             <section id="home" className="relative bg-gradient-to-br from-[#BAD6EB] to-[#FFF9F0] py-20 px-4">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h1 className="font-barrio text-6xl md:text-7xl font-bold text-[#2A3C83] mb-6">
+                    <h1 className="font-titan text-6xl md:text-7xl font-bold text-[#2A3C83] mb-6">
                         Building Harmonies
                     </h1>
-                    <p className="font-cedarville-cursive font-bold text-xl md:text-2xl text-[#3A4A93] mb-8">
+                    <p className="font-sniglet font-bold text-xl md:text-2xl text-[#3A4A93] mb-8">
                         A Community Night of Connection through Song
                     </p>
                     <div className="bg-white/90 rounded-lg p-6 max-w-2xl mx-auto mb-8 shadow-lg">
