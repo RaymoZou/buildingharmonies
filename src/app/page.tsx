@@ -258,10 +258,10 @@ export default function Home() {
                             <h2 className="text-2xl font-bold text-[#2A3C83] mb-2">Event Details</h2>
                             <div className="space-y-2 text-left bg-[#F7F2Eb] rounded-lg p-6">
                                 <p className="text-[#4A58A3]">📅 Saturday, March 21, 2026</p>
-                                <p className="text-[#4A58A3]">🕕 6:00 PM - 10:00 PM (Doors open at 5:30 PM)</p>
-                                <p className="text-[#4A58A3]">📍 Creekside Community Centre, 1 Athletes Way, Vancouver</p>
+                                <p className="text-[#4A58A3]">🕕 6:00 PM - 10:00 PM (Doors open at 5:45 PM)</p>
+                                <p className="text-[#4A58A3]">📍 2881 Main St, Vancouver, BC | St. Patrick Parish Shamrock Hall</p>
                                 <p className="text-[#4A58A3]">🅿️ Free parking available on-site</p>
-                                <p className="text-[#4A58A3]">🍽️ Light refreshments included</p>
+                                <p className="text-[#4A58A3]">🍽️ Dinner will be included</p>
                             </div>
                         </div>
 
