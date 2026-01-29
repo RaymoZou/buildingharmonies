@@ -121,8 +121,10 @@ export default function Home() {
                         <div className="text-[#3A4A93] space-y-2">
                             <p className="text-lg font-semibold">Join us for an unforgettable evening!</p>
                             <p className="text-md">📅 Saturday, March 21, 2026</p>
-                            <p className="text-md">🕕 6:00 PM - 10:00 PM</p>
-                            <p className="text-md">Creekside Community Centre, 1 Athletes Way, Vancouver</p>
+                            <p className="text-md">🕕 6:00 PM - 10:00 PM (Doors open at 5:45 PM)</p>
+                            <p className="text-md">📍 2881 Main St, Vancouver, BC | St. Patrick Parish Shamrock Hall</p>
+                            <p className="text-md">🅿️ Free parking available on-site</p>
+                            <p className="text-md">🍽️ Dinner will be included</p>
                         </div>
                     </div>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
