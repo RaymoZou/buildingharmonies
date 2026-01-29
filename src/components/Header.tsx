@@ -9,7 +9,7 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-[#FFF9F0] shadow-md z-50">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-barrio text-2xl font-bold text-[#3A4A93]">
+          <a href="#home" className="font-titan text-2xl font-bold text-[#3A4A93]">
             Building Harmonies
           </a>
           
