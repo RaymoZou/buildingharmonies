@@ -149,8 +149,11 @@ export default function Home() {
                         <h1 className="text-4xl font-bold text-[#2A3C83] mb-6">About Building Harmonies</h1>
                         <div className="prose prose-blue max-w-none">
                             <p className="text-lg text-[#3A4A93] mb-6">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Quisque sed nunc condimentum, posuere leo et, mattis augue.
+                                Ro and Lara are best friends who genuinely just love to hang out. This project grew naturally from that spirit of play, 
+                                community, and connection. As Filipinas, they were raised in spaces filled with karaoke, large gatherings, laughter, and 
+                                shared joy. These experiences shaped their understanding of togetherness and belonging.This project is both a homage to their 
+                                Filipino roots and an offering to immigrant and racialized young adults. It creates space for connection, shared experiences, 
+                                and the building of harmony through community and song. 
                             </p>
 
                             <h2 className="text-2xl font-semibold text-[#3A4A93] mt-8 mb-4">Our Mission</h2>
