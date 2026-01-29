@@ -151,11 +151,13 @@ export default function Home() {
                         <h1 className="text-4xl font-bold text-[#2A3C83] mb-6">About Building Harmonies</h1>
                         <div className="prose prose-blue max-w-none">
                             <p className="text-lg text-[#3A4A93] mb-6">
-                                Ro and Lara are best friends who genuinely just love to hang out. This project grew naturally from that spirit of play, 
-                                community, and connection. As Filipinas, they were raised in spaces filled with karaoke, large gatherings, laughter, and 
-                                shared joy. These experiences shaped their understanding of togetherness and belonging.This project is both a homage to their 
-                                Filipino roots and an offering to immigrant and racialized young adults. It creates space for connection, shared experiences, 
-                                and the building of harmony through community and song. 
+                                <b>Building Harmonies</b> is a free community event where music becomes a bridge, connecting hearts, celebrating diverse cultures, and creating 
+                                lasting friendships. This evening is a welcoming space designed especially for newcomers, immigrants, and racialized young adults to share their 
+                                stories, honor their heritage, and discover the joy of belonging in a vibrant, inclusive community.
+                                <br/><br/>
+                                <b>What to Expect:</b> Experience the power of music as talented local artists share beautiful songs from diverse cultures and traditions. 
+                                Connect with others during intermission and share a meal together. Through songs from around the world, we'll discover how our different 
+                                voices can create something amazing together. Come as you are, and leave a part of something greater.
                             </p>
 
                             <h2 className="text-2xl font-semibold text-[#3A4A93] mt-8 mb-4">Our Mission</h2>
