@@ -234,8 +234,8 @@ export default function Home() {
                     <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
                         <div className="mb-6">
                             <h2 className="text-2xl font-bold text-[#2A3C83] mb-2">Saturday, March 21, 2026</h2>
-                            <a href="https://maps.app.goo.gl/vfJ6qy2aFcrv7boj8" target="_blank" className="text-[#4A58A3]">Creekside Community Centre, 1 Athletes Way, Vancouver</a>
-                            <p className="text-[#7086D1]">Duration: 6:00 PM - 10:00 PM</p>
+                            <a href="https://maps.app.goo.gl/b8xjuxZZbcktzCHr6" target="_blank" className="text-[#4A58A3]">2881 Main St, Vancouver, BC | St. Patrick Parish Shamrock Hall</a>
+                            <p className="text-[#7086D1]">Duration: 6:00 PM - 10:00 PM (Doors open at 5:45 PM)</p>
                         </div>
 
                         <div className="space-y-4">
