@@ -10,33 +10,31 @@ export default function Home() {
       <section id="home" className="relative bg-[#BAD6EB] -mt-24 pt-24 pb-16 md:pb-24 px-4 scroll-mt-20">
         {/* Faint instrument illustrations (decorative) */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-30">
-          <div className="absolute left-4 top-1/4 w-24 h-24 border-2 border-[#7086D1] rounded-full" aria-hidden />
-          <div className="absolute right-8 top-1/3 w-20 h-32 border-2 border-[#7086D1] rounded-t-lg" aria-hidden />
-          <div className="absolute left-1/4 bottom-1/4 w-16 h-16 border-2 border-[#7086D1]" aria-hidden />
-          <div className="absolute right-1/4 bottom-1/3 w-28 h-20 border-2 border-[#7086D1] rounded-lg" aria-hidden />
         </div>
 
-        <div className="relative max-w-4xl mx-auto text-center">
-          <h1 className="font-titan text-5xl md:text-7xl font-bold text-[#2A3C83] mb-4">
-            BUILDING HARMONIES
-          </h1>
-          <p className="font-sniglet text-xl md:text-2xl font-bold text-[#3A4A93] mb-6">
-            A Community Night of Connection Through Song
-          </p>
-          <p className="text-[#3A4A93] max-w-2xl mx-auto mb-8 leading-relaxed">
-            Join us for a community-building music night featuring jam sessions, open mic moments, and space to connect. Designed for newcomers, immigrants, and racialized young adults.
-          </p>
-          <Link
-            href={RSVP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#7086D1] text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-[#5A6BB5] transition-colors"
-          >
-            SAVE YOUR SPOT
-          </Link>
-          <p className="mt-8 text-sm text-[#3A4A93]">
-            DINNER PROVIDED • FREE TO ATTEND • RSVP BY MARCH 7
-          </p>
+        <div className="relative max-w-5xl mx-auto mt-2">
+          <div className="bg-white rounded-lg shadow-lg border-6 border-[#7086d1] px-8 py-10 md:px-12 md:py-12 text-center">
+            <h1 className="font-titan text-4xl md:text-5xl font-bold text-[#2A3C83] mb-4">
+              BUILDING HARMONIES
+            </h1>
+            <p className="font-sniglet text-lg md:text-xl font-bold italic text-[#3A4A93] mb-6">
+              A Community Night of Connection Through Song
+            </p>
+            <p className="text-[#3A4A93] mb-8 leading-relaxed">
+              Join us for a community-building music night featuring jam sessions, open mic moments, and space to connect. Designed for newcomers, immigrants, and racialized young adults.
+            </p>
+            <Link
+              href={RSVP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#7086D1] text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-[#5A6BB5] transition-colors"
+            >
+              SAVE YOUR SPOT
+            </Link>
+            <p className="mt-8 text-sm text-[#3A4A93]">
+              DINNER PROVIDED • FREE TO ATTEND • RSVP BY MARCH 7
+            </p>
+          </div>
         </div>
       </section>
 
@@ -47,47 +45,55 @@ export default function Home() {
 
       {/* Event Details Section - two columns: details left, map right */}
       <section className="bg-[#BAD6EB] py-12 px-4">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8 items-start">
-            {/* Left column - event specifics with icons */}
-            <div className="space-y-6">
-              <div className="flex gap-4">
-                <span className="text-2xl" aria-hidden>🕐</span>
-                <div>
-                  <p className="font-semibold text-[#2A3C83]">Saturday, March 21, 2026</p>
-                  <p className="text-[#3A4A93]">6:00 pm to 10:00 PM</p>
+        <div className="relative max-w-5xl mx-auto">
+          <div className="bg-[#7086D1] rounded-lg shadow-lg border-6 border-white px-8 py-10 md:px-12 md:py-12">
+
+            <div className="grid md:grid-cols-2 gap-8 items-start">
+
+              {/* Left column - event specifics with icons */}
+              <div className="space-y-6 text-white">
+                <div className="flex gap-4">
+                  <span className="text-2xl" aria-hidden>🕐</span>
+                  <div>
+                    <p className="font-semibold">Saturday, March 21, 2026</p>
+                    <p className="opacity-90">6:00 pm to 10:00 PM</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <span className="text-2xl" aria-hidden>📍</span>
+                  <div>
+                    <p className="font-semibold">2881 Main St, Vancouver, BC</p>
+                    <p className="opacity-90">St. Patrick&apos;s Parish Shamrock Hall</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <span className="text-2xl" aria-hidden>🅿️</span>
+                  <p className="opacity-90">Free parking available on-site</p>
+                </div>
+
+                <div className="flex gap-4">
+                  <span className="text-2xl" aria-hidden>🍽️</span>
+                  <p className="opacity-90">Dinner will be included</p>
                 </div>
               </div>
-              <div className="flex gap-4">
-                <span className="text-2xl" aria-hidden>📍</span>
-                <div>
-                  <p className="font-semibold text-[#2A3C83]">2881 Main St, Vancouver, BC</p>
-                  <p className="text-[#3A4A93]">St. Patrick&apos;s Parish Shamrock Hall</p>
-                </div>
+
+              {/* Right column - map placeholder */}
+              <div className="bg-white/90 rounded-lg aspect-[4/3] min-h-[200px] flex items-center justify-center text-[#2A3C83] font-medium">
+                Map placeholder
               </div>
-              <div className="flex gap-4">
-                <span className="text-2xl" aria-hidden>🅿️</span>
-                <div>
-                  <p className="text-[#3A4A93]">Free parking available on-site</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <span className="text-2xl" aria-hidden>🍽️</span>
-                <div>
-                  <p className="text-[#3A4A93]">Dinner will be included</p>
-                </div>
-              </div>
+
             </div>
-            {/* Right column - map placeholder */}
-            <div className="bg-[#8FAAD6] rounded-lg aspect-[4/3] min-h-[200px] flex items-center justify-center text-[#2A3C83] font-medium">
-              Map placeholder
-            </div>
+
+            <p className="mt-8 text-sm text-white/90 text-center">
+              Registration is required to attend. Please RSVP above.
+            </p>
+
           </div>
-          <p className="mt-6 text-sm text-[#3A4A93] text-center">
-            Registration is required to attend. Please RSVP above.
-          </p>
         </div>
       </section>
+
 
       {/* Section divider - THE HEART BEHIND THE EVENT */}
       <div id="heart" className="bg-[#2A3C83] py-3 text-center scroll-mt-22">
