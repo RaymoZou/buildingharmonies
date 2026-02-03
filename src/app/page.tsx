@@ -169,9 +169,6 @@ export default function Home() {
                   Image taken from the church parking lot.
                 </a>
               </p>
-
-
-
             </div>
 
             {/* Image */}
