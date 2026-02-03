@@ -8,11 +8,48 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section - light blue background; -mt-24 pulls up to meet nav so no gap shows */}
       <section id="home" className="relative bg-[#BAD6EB] -mt-24 pt-24 pb-16 md:pb-24 px-4 scroll-mt-20">
-        {/* Faint instrument illustrations (decorative) */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-30">
-        </div>
 
         <div className="relative max-w-5xl mx-auto mt-2">
+          {/* Decorative background images */}
+          <div className="absolute inset-0 pointer-events-none z-0">
+            <img
+              src="/images/instruments/guitar.png"
+              className="absolute left-4 top-0 w-32 opacity-75 rotate-[-30deg]"
+              alt=""
+              aria-hidden
+            />
+            <img
+              src="/images/instruments/drum set.png"
+              className="absolute right-7 bottom-3 w-32 opacity-75 scale-180"
+              alt=""
+              aria-hidden
+            />
+            <img
+              src="/images/instruments/keyboard.png"
+              className="absolute left-28 bottom-0 w-32 opacity-75 scale-140"
+              alt=""
+              aria-hidden
+            />
+            <img
+              src="/images/instruments/mic stand.png"
+              className="absolute right-8 top-8 w-32 opacity-75 scale-170 rotate-[15deg]"
+              alt=""
+              aria-hidden
+            />
+            <img
+              src="/images/instruments/staff.png"
+              className="absolute right-7 top-2 w-32 opacity-75 scale-130 rotate-[15deg]"
+              alt=""
+              aria-hidden
+            />
+            <img
+              src="/images/instruments/speaker w BG.png"
+              className="absolute left-3 top-66 w-32 opacity-75 scale-100 rotate-[-15deg]"
+              alt=""
+              aria-hidden
+            />
+          </div>
+
           <div className="bg-white rounded-lg shadow-lg border-6 border-[#7086d1] px-8 py-10 md:px-12 md:py-12 text-center">
             <h1 className="font-titan text-4xl md:text-5xl font-bold text-[#2A3C83] mb-4">
               BUILDING HARMONIES
