@@ -103,7 +103,7 @@ export default function Home() {
                   </span>
                   <div>
                     <p className="font-semibold text-2xl">Saturday, March 21, 2026</p>
-                    <p className="opacity-90">6:00 pm to 10:00 PM</p>
+                    <p className="opacity-90">6:00 PM to 10:00 PM</p>
                   </div>
                 </div>
 
