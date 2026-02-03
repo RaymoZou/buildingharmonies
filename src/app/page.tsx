@@ -51,7 +51,7 @@ export default function Home() {
           </div>
 
           <div className="bg-white rounded-lg shadow-lg border-6 border-[#7086d1] px-8 py-10 md:px-12 md:py-12 text-center">
-            <h1 className="font-titan text-4xl md:text-5xl font-bold text-[#2A3C83] mb-4">
+            <h1 className="font-titan text-4xl md:text-5xl text-[#2A3C83] mb-4">
               BUILDING HARMONIES
             </h1>
             <p className="font-sniglet text-lg md:text-xl font-bold italic text-[#3A4A93] mb-6">
@@ -76,7 +76,7 @@ export default function Home() {
       </section>
 
       {/* Section divider - EVENT DETAILS */}
-      <div id="event-details" className="bg-[#2A3C83] py-3 text-center scroll-mt-22">
+      <div id="event-details" className="bg-[#2A3C83] py-3 text-center scroll-mt-25">
         <h2 className="text-white font-bold text-lg tracking-wide">EVENT DETAILS</h2>
       </div>
 
@@ -92,7 +92,7 @@ export default function Home() {
                 <div className="flex gap-4">
                   <span className="text-2xl" aria-hidden>🕐</span>
                   <div>
-                    <p className="font-semibold">Saturday, March 21, 2026</p>
+                    <p className="font-semibold text-2xl">Saturday, March 21, 2026</p>
                     <p className="opacity-90">6:00 pm to 10:00 PM</p>
                   </div>
                 </div>
@@ -100,19 +100,19 @@ export default function Home() {
                 <div className="flex gap-4">
                   <span className="text-2xl" aria-hidden>📍</span>
                   <div>
-                    <p className="font-semibold">2881 Main St, Vancouver, BC</p>
+                    <p className="text-2xl font-semibold">2881 Main St, Vancouver, BC</p>
                     <p className="opacity-90">St. Patrick&apos;s Parish Shamrock Hall</p>
                   </div>
                 </div>
 
                 <div className="flex gap-4">
                   <span className="text-2xl" aria-hidden>🅿️</span>
-                  <p className="opacity-90">Free parking available on-site</p>
+                  <p className="text-xl opacity-90">Free parking available on-site</p>
                 </div>
 
                 <div className="flex gap-4">
                   <span className="text-2xl" aria-hidden>🍽️</span>
-                  <p className="opacity-90">Dinner will be included</p>
+                  <p className="text-xl opacity-90">Dinner will be included</p>
                 </div>
               </div>
 
@@ -133,21 +133,21 @@ export default function Home() {
 
 
       {/* Section divider - THE HEART BEHIND THE EVENT */}
-      <div id="heart" className="bg-[#2A3C83] py-3 text-center scroll-mt-22">
+      <div id="heart" className="bg-[#2A3C83] py-3 text-center scroll-mt-25">
         <h2 className="text-white font-bold text-lg tracking-wide">THE HEART BEHIND THE EVENT</h2>
       </div>
 
       {/* The Heart Behind the Event - white background, justified text */}
       <section className="bg-white py-12 px-4">
         <div className="max-w-3xl mx-auto">
-          <h3 className="text-2xl font-bold text-[#2A3C83] mb-6">
+          <h3 className="text-2xl font-bold text-[#2A3C83] italic mb-6">
             Created for expression, connection, and care.
           </h3>
           <div className="text-[#3A4A93] space-y-4 text-justify leading-relaxed">
             <p>
               Building Harmonies grew naturally from the spirit of play, community, and connection. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed nunc condimentum, posuere leo et, mattis augue. This event is both a homage to their Filipino roots and a celebration of the diverse voices that make up our community.
             </p>
-            <h3 className="text-xl font-bold text-[#2A3C83] mt-8 mb-4">
+            <h3 className="text-xl font-bold text-[#2A3C83] italic mt-8 mb-4">
               Because belonging is something we create together.
             </h3>
             <p>
@@ -158,7 +158,7 @@ export default function Home() {
       </section>
 
       {/* Section divider - ABOUT US */}
-      <div id="about-us" className="bg-[#2A3C83] py-3 text-center scroll-mt-22">
+      <div id="about-us" className="bg-[#2A3C83] py-3 text-center scroll-mt-25">
         <h2 className="text-white font-bold text-lg tracking-wide">ABOUT US</h2>
       </div>
 
@@ -177,7 +177,7 @@ export default function Home() {
             </div>
             {/* Right column - Meet Ro & Lara, right-aligned text */}
             <div className="text-right">
-              <h3 className="text-2xl font-bold text-[#2A3C83] mb-4">Meet Ro & Lara</h3>
+              <h3 className="text-2xl font-bold text-[#2A3C83] italic mb-4">Meet Ro & Lara</h3>
               <p className="text-[#3A4A93] leading-relaxed">
                 Best friends, music lovers, and experts at turning ordinary hangouts into something memorable. Ro and Lara created Building Harmonies to share that same joy—an evening where people can connect, laugh, and feel at home in community.
               </p>
