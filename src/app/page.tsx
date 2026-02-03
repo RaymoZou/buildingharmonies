@@ -92,7 +92,7 @@ export default function Home() {
 
       {/* Event Details Section - two columns: details left, map right */}
       <section className="bg-[#BAD6EB] py-12 px-4">
-        <div className="relative max-w-5xl mx-auto">
+        <div className="relative max-w-5xl mx-auto space-y-12">
           <div className="bg-[#7086D1] rounded-lg shadow-lg border-6 border-white px-8 py-10 md:px-12 md:py-12 md:pb-6">
             <div className="grid md:grid-cols-2 gap-8 items-start">
               {/* Left column - event specifics with icons */}
@@ -132,6 +132,7 @@ export default function Home() {
                 </div>
               </div>
 
+              {/* Right column - map */}
               <div className="rounded-lg overflow-hidden aspect-[4/3] min-h-[200px]">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.6427168227797!2d-123.1018749!3d49.2366233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486718636f795a3%3A0x6f8a5d6d7a9a6a6a!2s2881%20Main%20St%2C%20Vancouver%2C%20BC%20V5T%203G4!5e0!3m2!1sen!2sca!4v1738492800000!5m2!1sen!2sca"
@@ -144,11 +145,43 @@ export default function Home() {
                 />
               </div>
             </div>
-            {/* Right column - map */}
 
             <p className="mt-8 text-sm text-white/90 text-center">
               Registration is required to attend. Please RSVP above.
             </p>
+          </div>
+          {/* Second Card - Instructions on how to get inside */}
+          <div className="bg-white rounded-lg shadow-lg border-6 border-[#7086D1] px-8 py-10 md:px-12 md:py-12 flex flex-col md:flex-row items-start gap-8">
+            {/* Text */}
+            <div className="flex-1 space-y-4">
+              <h2 className="text-2xl font-semibold text-[#2A3C83]">How to Get Inside</h2>
+              <p className="text-[#3A4A93] leading-relaxed">
+                Enter through the gate on the right side of the church doors, at the bottom of the ramp.
+                Proceed down to the bottom of the stairs and turn left into the entrance.
+              </p>
+              <p className="mt-4 text-[#3A4A93] leading-relaxed">
+                <a
+                  href="https://www.google.com/maps/place/Shamrock+Hall/@49.259486,-123.1021819,3a,75y,65.12h,88.37t/data=!3m7!1e1!3m5!1szF2_5DdATIb_0AX2PN-6wA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.634893968171724%26panoid%3DzF2_5DdATIb_0AX2PN-6wA%26yaw%3D65.11597010162319!7i16384!8i8192!4m14!1m7!3m6!1s0x548673e3b811ee41:0x58f16ed3ecd1ff7!2sSt.+Patrick's+Roman+Catholic+Parish!8m2!3d49.2596737!4d-123.1015652!16s%2Fg%2F1tghp8nk!3m5!1s0x548673005414a063:0x1e9225bd717985a4!8m2!3d49.259589!4d-123.1016013!16s%2Fg%2F11wbny8s_b?entry=ttu&g_ep=EgoyMDI2MDEyOC4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-[#2A3C83] transition-colors"
+                >
+                  Image taken from the church parking lot.
+                </a>
+              </p>
+
+
+
+            </div>
+
+            {/* Image */}
+            <div className="flex-shrink-0 w-full md:w-128 rounded-lg overflow-hidden">
+              <img
+                src="/images/sps entrance.png"
+                alt="Venue Entrance"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -175,7 +208,7 @@ export default function Home() {
               and a celebration of the diverse voices that make up our
               community.
             </p>
-            <h3 className="text-xl font-bold text-[#2A3C83] italic mt-8 mb-4">
+            <h3 className="text-2xl font-bold text-[#2A3C83] italic mt-8 mb-4">
               Because belonging is something we create together.
             </h3>
             <p>
