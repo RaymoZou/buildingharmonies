@@ -17,47 +17,47 @@ export default function Home() {
           <div className="absolute inset-0 pointer-events-none z-0">
             <img
               src="/images/instruments/guitar.png"
-              className="absolute left-4 top-0 w-32 opacity-75 rotate-[-30deg]"
+              className="absolute left-4 top-0 w-32 opacity-40 md:opacity-75 rotate-[-30deg]"
               alt=""
               aria-hidden
             />
             <img
               src="/images/instruments/drum set.png"
-              className="absolute right-7 bottom-3 w-32 opacity-75 scale-180"
+              className="absolute right-7 bottom-3 w-32 opacity-40 md:opacity-75 scale-180"
               alt=""
               aria-hidden
             />
             <img
               src="/images/instruments/keyboard.png"
-              className="absolute left-28 bottom-0 w-32 opacity-75 scale-140"
+              className="absolute left-28 bottom-0 w-32 opacity-40 md:opacity-75 scale-140"
               alt=""
               aria-hidden
             />
             <img
               src="/images/instruments/mic stand.png"
-              className="absolute right-8 top-8 w-32 opacity-75 scale-170 rotate-[15deg]"
+              className="absolute right-8 top-8 w-32 opacity-40 md:opacity-75 scale-170 rotate-[15deg]"
               alt=""
               aria-hidden
             />
             <img
               src="/images/instruments/staff.png"
-              className="absolute right-7 top-2 w-32 opacity-75 scale-130 rotate-[15deg]"
+              className="absolute right-7 top-2 w-32 opacity-40 md:opacity-75 scale-130 rotate-[15deg]"
               alt=""
               aria-hidden
             />
             <img
               src="/images/instruments/speaker w BG.png"
-              className="absolute left-3 top-66 w-32 opacity-75 scale-100 rotate-[-15deg]"
+              className="absolute left-3 top-66 w-32 opacity-40 md:opacity-75 scale-100 rotate-[-15deg]"
               alt=""
               aria-hidden
             />
           </div>
 
           <div className="bg-white rounded-lg shadow-lg border-6 border-[#7086d1] px-8 py-10 md:px-12 md:py-12 text-center">
-            <h1 className="font-titan text-4xl md:text-5xl font-bold text-[#2A3C83] mb-4">
+            <h1 className="font-titan text-4xl md:text-5xl text-[#2A3C83] mb-4 relative z-10">
               BUILDING HARMONIES
             </h1>
-            <p className="font-sniglet text-lg md:text-xl font-bold italic text-[#3A4A93] mb-6">
+            <p className="font-sniglet text-lg md:text-xl font-bold italic text-[#3A4A93] mb-6 relative z-10">
               A Community Night of Connection Through Song
             </p>
             <p className="text-[#3A4A93] mb-8 leading-relaxed">
@@ -73,7 +73,7 @@ export default function Home() {
             >
               SAVE YOUR SPOT
             </Link>
-            <p className="mt-8 text-sm text-[#3A4A93]">
+            <p className="mt-8 text-sm text-[#3A4A93] relative z-10">
               DINNER PROVIDED • FREE TO ATTEND • RSVP BY MARCH 7
             </p>
           </div>
@@ -83,7 +83,7 @@ export default function Home() {
       {/* Section divider - EVENT DETAILS */}
       <div
         id="event-details"
-        className="bg-[#2A3C83] py-3 text-center scroll-mt-22"
+        className="bg-[#2A3C83] py-3 text-center scroll-mt-25"
       >
         <h2 className="text-white font-bold text-lg tracking-wide">
           EVENT DETAILS
@@ -93,7 +93,7 @@ export default function Home() {
       {/* Event Details Section - two columns: details left, map right */}
       <section className="bg-[#BAD6EB] py-12 px-4">
         <div className="relative max-w-5xl mx-auto">
-          <div className="bg-[#7086D1] rounded-lg shadow-lg border-6 border-white px-8 py-10 md:px-12 md:py-12">
+          <div className="bg-[#7086D1] rounded-lg shadow-lg border-6 border-white px-8 py-10 md:px-12 md:py-12 md:pb-6">
             <div className="grid md:grid-cols-2 gap-8 items-start">
               {/* Left column - event specifics with icons */}
               <div className="space-y-6 text-white">
@@ -102,35 +102,33 @@ export default function Home() {
                     🕐
                   </span>
                   <div>
-                    <p className="font-semibold">Saturday, March 21, 2026</p>
-                    <p className="opacity-90">6:00 pm to 10:00 PM</p>
+                    <p className="font-semibold text-2xl">Saturday, March 21, 2026</p>
+                    <p className="opacity-90">6:00 PM to 10:00 PM</p>
                   </div>
                 </div>
 
-                <div className="flex gap-4">
-                  <span className="text-2xl" aria-hidden>
-                    📍
-                  </span>
+                <a
+                  href="https://maps.app.goo.gl/6r7CdPuHfoh6rBcU7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex gap-4 hover:cursor-pointer hover:scale-105 transition-transform duration-200"
+                >
+                  <span className="text-2xl" aria-hidden="true">📍</span>
                   <div>
-                    <p className="font-semibold">2881 Main St, Vancouver, BC</p>
-                    <p className="opacity-90">
-                      St. Patrick&apos;s Parish Shamrock Hall
-                    </p>
+                    <p className="text-2xl font-semibold">2881 Main St, Vancouver, BC</p>
+                    <p className="opacity-90">St. Patrick&apos;s Parish Shamrock Hall</p>
                   </div>
+                </a>
+
+
+                <div className="flex gap-4">
+                  <span className="text-2xl" aria-hidden>🅿️</span>
+                  <p className="text-xl">Free parking available on-site</p>
                 </div>
 
                 <div className="flex gap-4">
-                  <span className="text-2xl" aria-hidden>
-                    🅿️
-                  </span>
-                  <p className="opacity-90">Free parking available on-site</p>
-                </div>
-
-                <div className="flex gap-4">
-                  <span className="text-2xl" aria-hidden>
-                    🍽️
-                  </span>
-                  <p className="opacity-90">Dinner will be included</p>
+                  <span className="text-2xl" aria-hidden>🍽️</span>
+                  <p className="text-xl">Dinner will be included</p>
                 </div>
               </div>
 
@@ -165,7 +163,7 @@ export default function Home() {
       {/* The Heart Behind the Event - white background, justified text */}
       <section className="bg-white py-12 px-4">
         <div className="max-w-3xl mx-auto">
-          <h3 className="text-2xl font-bold text-[#2A3C83] mb-6 italic">
+          <h3 className="text-2xl font-bold text-[#2A3C83] italic mb-6">
             Created for expression, connection, and care.
           </h3>
           <div className="text-[#3A4A93] space-y-4 text-justify leading-relaxed">
@@ -224,7 +222,7 @@ export default function Home() {
       </section>
 
       {/* Section divider - ABOUT US */}
-      <div id="about-us" className="bg-[#2A3C83] py-3 text-center scroll-mt-22">
+      <div id="about-us" className="bg-[#2A3C83] py-3 text-center scroll-mt-25">
         <h2 className="text-white font-bold text-lg tracking-wide">ABOUT US</h2>
       </div>
 
