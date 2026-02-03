@@ -102,7 +102,9 @@ export default function Home() {
                     🕐
                   </span>
                   <div>
-                    <p className="font-semibold text-2xl">Saturday, March 21, 2026</p>
+                    <p className="font-semibold text-2xl">
+                      Saturday, March 21, 2026
+                    </p>
                     <p className="opacity-90">6:00 PM to 10:00 PM</p>
                   </div>
                 </div>
@@ -113,21 +115,30 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex gap-4 hover:cursor-pointer hover:scale-105 transition-transform duration-200"
                 >
-                  <span className="text-2xl" aria-hidden="true">📍</span>
+                  <span className="text-2xl" aria-hidden="true">
+                    📍
+                  </span>
                   <div>
-                    <p className="text-2xl font-semibold">2881 Main St, Vancouver, BC</p>
-                    <p className="opacity-90">St. Patrick&apos;s Parish Shamrock Hall</p>
+                    <p className="text-2xl font-semibold">
+                      2881 Main St, Vancouver, BC
+                    </p>
+                    <p className="opacity-90">
+                      St. Patrick&apos;s Parish Shamrock Hall
+                    </p>
                   </div>
                 </a>
 
-
                 <div className="flex gap-4">
-                  <span className="text-2xl" aria-hidden>🅿️</span>
+                  <span className="text-2xl" aria-hidden>
+                    🅿️
+                  </span>
                   <p className="text-xl">Free parking available on-site</p>
                 </div>
 
                 <div className="flex gap-4">
-                  <span className="text-2xl" aria-hidden>🍽️</span>
+                  <span className="text-2xl" aria-hidden>
+                    🍽️
+                  </span>
                   <p className="text-xl">Dinner will be included</p>
                 </div>
               </div>
@@ -154,10 +165,13 @@ export default function Home() {
           <div className="bg-white rounded-lg shadow-lg border-6 border-[#7086D1] px-8 py-10 md:px-12 md:py-12 flex flex-col md:flex-row items-start gap-8">
             {/* Text */}
             <div className="flex-1 space-y-4">
-              <h2 className="text-2xl font-semibold text-[#2A3C83]">How to Get Inside</h2>
+              <h2 className="text-2xl font-semibold text-[#2A3C83]">
+                How to Get Inside
+              </h2>
               <p className="text-[#3A4A93] leading-relaxed">
-                Enter through the gate on the right side of the church doors, at the bottom of the ramp.
-                Proceed down to the bottom of the stairs and turn left into the entrance.
+                Enter through the gate on the right side of the church doors, at
+                the bottom of the ramp. Proceed down to the bottom of the stairs
+                and turn left into the entrance.
               </p>
               <p className="mt-4 text-[#3A4A93] leading-relaxed">
                 <a
@@ -354,6 +368,10 @@ export default function Home() {
             className="rounded-lg bg-blue-400 object-cover aspect-4/3 min-h-45"
           ></Image>
         </div>
+      </div>
+      <div className="text-center mt-12 text-2xl">
+        This project was made possible through funding by the <span className="font-bold">Canadian Red Cross </span>
+        through the <a className="text-blue-600 hover:underline" href="https://www.redcross.ca/sa/resilience-fund-youth-leading-change" target="_blank" rel="noopener noreferrer">Resilience Fund</a>
       </div>
     </div>
   );
