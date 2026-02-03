@@ -1,13 +1,17 @@
-'use client'
+"use client";
 
-import Link from 'next/link'
-import { RSVP_URL } from '@/lib/constants'
+import Link from "next/link";
+import { RSVP_URL } from "@/lib/constants";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section - light blue background; -mt-24 pulls up to meet nav so no gap shows */}
-      <section id="home" className="relative bg-[#BAD6EB] -mt-24 pt-24 pb-16 md:pb-24 px-4 scroll-mt-20">
+      <section
+        id="home"
+        className="relative bg-[#BAD6EB] -mt-24 pt-24 pb-16 md:pb-24 px-4 scroll-mt-20"
+      >
         <div className="relative max-w-5xl mx-auto mt-2">
           {/* Decorative background images */}
           <div className="absolute inset-0 pointer-events-none z-0">
@@ -56,8 +60,10 @@ export default function Home() {
             <p className="font-sniglet text-lg md:text-xl font-bold italic text-[#3A4A93] mb-6 relative z-10">
               A Community Night of Connection Through Song
             </p>
-            <p className="text-[#3A4A93] mb-8 leading-relaxed relative z-10">
-              Join us for a community-building music night featuring jam sessions, open mic moments, and space to connect. Designed for newcomers, immigrants, and racialized young adults.
+            <p className="text-[#3A4A93] mb-8 leading-relaxed">
+              Join us for a community-building music night featuring jam
+              sessions, open mic moments, and space to connect. Designed for
+              newcomers, immigrants, and racialized young adults.
             </p>
             <Link
               href={RSVP_URL}
@@ -75,21 +81,26 @@ export default function Home() {
       </section>
 
       {/* Section divider - EVENT DETAILS */}
-      <div id="event-details" className="bg-[#2A3C83] py-3 text-center scroll-mt-25">
-        <h2 className="text-white font-bold text-lg tracking-wide">EVENT DETAILS</h2>
+      <div
+        id="event-details"
+        className="bg-[#2A3C83] py-3 text-center scroll-mt-22"
+      >
+        <h2 className="text-white font-bold text-lg tracking-wide">
+          EVENT DETAILS
+        </h2>
       </div>
 
       {/* Event Details Section - two columns: details left, map right */}
       <section className="bg-[#BAD6EB] py-12 px-4">
         <div className="relative max-w-5xl mx-auto">
           <div className="bg-[#7086D1] rounded-lg shadow-lg border-6 border-white px-8 py-10 md:px-12 md:py-12">
-
             <div className="grid md:grid-cols-2 gap-8 items-start">
-
               {/* Left column - event specifics with icons */}
               <div className="space-y-6 text-white">
                 <div className="flex gap-4">
-                  <span className="text-2xl" aria-hidden>🕐</span>
+                  <span className="text-2xl" aria-hidden>
+                    🕐
+                  </span>
                   <div>
                     <p className="font-semibold text-2xl">Saturday, March 21, 2026</p>
                     <p className="opacity-90">6:00 pm to 10:00 PM</p>
@@ -121,25 +132,32 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Right column - map placeholder */}
-              <div className="bg-white/90 rounded-lg aspect-[4/3] min-h-[200px] flex items-center justify-center text-[#2A3C83] font-medium">
-                Map placeholder
+              <div className="rounded-lg overflow-hidden aspect-[4/3] min-h-[200px]">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.6427168227797!2d-123.1018749!3d49.2366233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486718636f795a3%3A0x6f8a5d6d7a9a6a6a!2s2881%20Main%20St%2C%20Vancouver%2C%20BC%20V5T%203G4!5e0!3m2!1sen!2sca!4v1738492800000!5m2!1sen!2sca"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
-
             </div>
+            {/* Right column - map */}
 
             <p className="mt-8 text-sm text-white/90 text-center">
               Registration is required to attend. Please RSVP above.
             </p>
-
           </div>
         </div>
       </section>
 
-
       {/* Section divider - THE HEART BEHIND THE EVENT */}
-      <div id="heart" className="bg-[#2A3C83] py-3 text-center scroll-mt-25">
-        <h2 className="text-white font-bold text-lg tracking-wide">THE HEART BEHIND THE EVENT</h2>
+      <div id="heart" className="bg-[#2A3C83] py-3 text-center scroll-mt-22">
+        <h2 className="text-white font-bold text-lg tracking-wide">
+          THE HEART BEHIND THE EVENT
+        </h2>
       </div>
 
       {/* The Heart Behind the Event - white background, justified text */}
@@ -150,13 +168,23 @@ export default function Home() {
           </h3>
           <div className="text-[#3A4A93] space-y-4 text-justify leading-relaxed">
             <p>
-              Building Harmonies grew naturally from the spirit of play, community, and connection. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed nunc condimentum, posuere leo et, mattis augue. This event is both a homage to their Filipino roots and a celebration of the diverse voices that make up our community.
+              Building Harmonies grew naturally from the spirit of play,
+              community, and connection. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Quisque sed nunc condimentum, posuere leo et,
+              mattis augue. This event is both a homage to their Filipino roots
+              and a celebration of the diverse voices that make up our
+              community.
             </p>
             <h3 className="text-xl font-bold text-[#2A3C83] italic mt-8 mb-4">
               Because belonging is something we create together.
             </h3>
             <p>
-              Our purpose is to create a safe, welcoming space where everyone can bring their whole self. In a time shaped by global conflict and division, we believe music can be a bridge. Through music and shared creative moments, we build trust and understanding. By fostering belonging and creating culturally relevant opportunities, we help people feel at home.
+              Our purpose is to create a safe, welcoming space where everyone
+              can bring their whole self. In a time shaped by global conflict
+              and division, we believe music can be a bridge. Through music and
+              shared creative moments, we build trust and understanding. By
+              fostering belonging and creating culturally relevant
+              opportunities, we help people feel at home.
             </p>
           </div>
         </div>
@@ -182,14 +210,19 @@ export default function Home() {
             </div>
             {/* Right column - Meet Ro & Lara, right-aligned text */}
             <div className="text-right">
-              <h3 className="text-2xl font-bold text-[#2A3C83] italic mb-4">Meet Ro & Lara</h3>
+              <h3 className="text-2xl font-bold text-[#2A3C83] mb-4">
+                Meet Ro & Lara
+              </h3>
               <p className="text-[#3A4A93] leading-relaxed">
-                Best friends, music lovers, and experts at turning ordinary hangouts into something memorable. Ro and Lara created Building Harmonies to share that same joy—an evening where people can connect, laugh, and feel at home in community.
+                Best friends, music lovers, and experts at turning ordinary
+                hangouts into something memorable. Ro and Lara created Building
+                Harmonies to share that same joy—an evening where people can
+                connect, laugh, and feel at home in community.
               </p>
             </div>
           </div>
         </div>
       </section>
     </div>
-  )
+  );
 }
