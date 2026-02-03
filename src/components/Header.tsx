@@ -11,9 +11,12 @@ export default function Header() {
     <header className="fixed top-0 w-full z-50">
       {/* Dark blue strip - title with stars */}
       <div className="bg-[#2A3C83] py-2 text-center">
-        <span className="font-titan text-xl md:text-2xl font-bold text-white">
+        <a
+          href="#home"
+          className="font-sniglet text-xl md:text-2xl font-bold text-white hover:opacity-90 transition-opacity block"
+        >
           ★ BUILDING HARMONIES ★
-        </span>
+        </a>
       </div>
       {/* Lighter blue strip - nav links */}
       <div className="bg-[#BAD6EB] py-2 px-4">
@@ -25,7 +28,7 @@ export default function Header() {
               href={RSVP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#7086D1] text-white px-4 py-2 rounded-lg font-semibold text-sm hover:bg-[#5A6BB5] transition-colors"
+              className="bg-[#7086D1] text-white px-4 py-2 rounded-2xl font-semibold text-sm hover:bg-[#5A6BB5] transition-colors"
             >
               SIGN UP
             </Link>
