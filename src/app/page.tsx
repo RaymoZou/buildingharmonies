@@ -83,7 +83,7 @@ export default function Home() {
       {/* Section divider - EVENT DETAILS */}
       <div
         id="event-details"
-        className="bg-[#2A3C83] py-3 text-center scroll-mt-22"
+        className="bg-[#2A3C83] py-3 text-center scroll-mt-25"
       >
         <h2 className="text-white font-bold text-lg tracking-wide">
           EVENT DETAILS
@@ -93,7 +93,7 @@ export default function Home() {
       {/* Event Details Section - two columns: details left, map right */}
       <section className="bg-[#BAD6EB] py-12 px-4">
         <div className="relative max-w-5xl mx-auto">
-          <div className="bg-[#7086D1] rounded-lg shadow-lg border-6 border-white px-8 py-10 md:px-12 md:py-12">
+          <div className="bg-[#7086D1] rounded-lg shadow-lg border-6 border-white px-8 py-10 md:px-12 md:py-12 md:pb-6">
             <div className="grid md:grid-cols-2 gap-8 items-start">
               {/* Left column - event specifics with icons */}
               <div className="space-y-6 text-white">
