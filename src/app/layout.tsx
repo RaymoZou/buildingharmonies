@@ -42,7 +42,7 @@ export default function RootLayout({
                 className={`${geistSans.variable} ${titan_one.variable} ${geistMono.variable}  ${sniglet.variable} antialiased min-h-screen bg-[#F7F2Eb]`}
             >
                 <Header />
-                <main className="pt-16">
+                <main className="pt-24">
                     {children}
                 </main>
                 <Footer />
