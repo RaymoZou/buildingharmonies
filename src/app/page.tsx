@@ -133,7 +133,7 @@ export default function Home() {
               </div>
 
               {/* Right column - map */}
-              <div className="rounded-lg overflow-hidden aspect-[4/3] min-h-[200px] bg-red-100 p-4">
+              <div className="rounded-lg overflow-hidden aspect-[4/3] min-h-[200px]">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.6427168227797!2d-123.1018749!3d49.2366233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486718636f795a3%3A0x6f8a5d6d7a9a6a6a!2s2881%20Main%20St%2C%20Vancouver%2C%20BC%20V5T%203G4!5e0!3m2!1sen!2sca!4v1738492800000!5m2!1sen!2sca"
                   width="100%"
