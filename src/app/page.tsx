@@ -165,29 +165,60 @@ export default function Home() {
       {/* The Heart Behind the Event - white background, justified text */}
       <section className="bg-white py-12 px-4">
         <div className="max-w-3xl mx-auto">
-          <h3 className="text-2xl font-bold text-[#2A3C83] mb-6">
+          <h3 className="text-2xl font-bold text-[#2A3C83] mb-6 italic">
             Created for expression, connection, and care.
           </h3>
           <div className="text-[#3A4A93] space-y-4 text-justify leading-relaxed">
             <p>
-              Building Harmonies grew naturally from the spirit of play,
-              community, and connection. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Quisque sed nunc condimentum, posuere leo et,
-              mattis augue. This event is both a homage to their Filipino roots
-              and a celebration of the diverse voices that make up our
-              community.
+              <span className="italic">Building Harmonies</span> grew naturally
+              from the spirit of play, community, and connection. As Filipinas,
+              Ro and Lara were raised in spaces filled with karaoke, large
+              gatherings, laughter, and shared joy. These experiences shaped
+              their understanding of togetherness and belonging. From this
+              foundation grew a simple but powerful insight: music has the
+              ability to bring people together, foster emotional safety, and
+              affirm cultural identity—especially for immigrants and racialized
+              young people.
             </p>
-            <h3 className="text-xl font-bold text-[#2A3C83] mt-8 mb-4">
+            <p>
+              This event is both a homage to their Filipino roots and an
+              offering to immigrant and racialized young adults. It creates
+              space for connection, shared experiences, and the building of
+              harmony through community and song.
+            </p>
+
+            <h3 className="text-2xl font-bold text-[#2A3C83] mb-6 italic mt-12">
               Because belonging is something we create together.
             </h3>
-            <p>
-              Our purpose is to create a safe, welcoming space where everyone
-              can bring their whole self. In a time shaped by global conflict
-              and division, we believe music can be a bridge. Through music and
-              shared creative moments, we build trust and understanding. By
-              fostering belonging and creating culturally relevant
-              opportunities, we help people feel at home.
-            </p>
+            <div className="text-[#3A4A93] space-y-4 text-justify leading-relaxed">
+              <p>
+                Our purpose is to create a safe, welcoming space where music
+                becomes a pathway to connection, healing, and belonging. Rooted
+                in the understanding that creative expression supports emotional
+                well-being and social connection, this project centers the
+                experiences of immigrants and racialized young people.
+              </p>
+              <p>
+                In a time shaped by global conflict, rising anti-immigrant
+                stigma, and community-wide grief, many young people are carrying
+                feelings of isolation and uncertainty. This gathering responds
+                to that moment by offering a communal space to reflect, express,
+                and care for one another.
+              </p>
+              <p>
+                Through music and shared creative moments, participants are
+                invited to celebrate cultural identity, share lived experiences,
+                and build supportive relationships. Music serves as both a
+                grounding force and a bridge—linking individuals to community,
+                and expression to resilience.
+              </p>
+              <p>
+                By fostering belonging and creating culturally relevant
+                opportunities for connection, this project aims to strengthen
+                community resilience and remind participants that they are not
+                alone.
+              </p>
+            </div>
           </div>
         </div>
       </section>
