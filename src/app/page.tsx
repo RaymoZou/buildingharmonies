@@ -15,40 +15,52 @@ export default function Home() {
         <div className="relative max-w-5xl mx-auto mt-2">
           {/* Decorative background images */}
           <div className="absolute inset-0 pointer-events-none z-0">
-            <img
+            <Image
               src="/images/instruments/guitar.png"
+              alt=""
+              width={128}
+              height={128}
               className="absolute left-4 top-0 w-32 opacity-40 md:opacity-75 rotate-[-30deg]"
-              alt=""
               aria-hidden
             />
-            <img
+            <Image
               src="/images/instruments/drum set.png"
+              alt=""
+              width={128}
+              height={128}
               className="absolute right-7 bottom-3 w-32 opacity-40 md:opacity-75 scale-180"
-              alt=""
               aria-hidden
             />
-            <img
+            <Image
               src="/images/instruments/keyboard.png"
+              alt=""
+              width={128}
+              height={128}
               className="absolute left-28 bottom-0 w-32 opacity-40 md:opacity-75 scale-140"
-              alt=""
               aria-hidden
             />
-            <img
+            <Image
               src="/images/instruments/mic stand.png"
+              alt=""
+              width={128}
+              height={128}
               className="absolute right-8 top-8 w-32 opacity-40 md:opacity-75 scale-170 rotate-[15deg]"
-              alt=""
               aria-hidden
             />
-            <img
+            <Image
               src="/images/instruments/staff.png"
-              className="absolute right-7 top-2 w-32 opacity-40 md:opacity-75 scale-130 rotate-[15deg]"
               alt=""
+              width={128}
+              height={128}
+              className="absolute right-7 top-2 w-32 opacity-40 md:opacity-75 scale-130 rotate-[15deg]"
               aria-hidden
             />
-            <img
+            <Image
               src="/images/instruments/speaker w BG.png"
-              className="absolute left-3 top-66 w-32 opacity-40 md:opacity-75 scale-100 rotate-[-15deg]"
               alt=""
+              width={128}
+              height={128}
+              className="absolute left-3 top-66 w-32 opacity-40 md:opacity-75 scale-100 rotate-[-15deg]"
               aria-hidden
             />
           </div>
