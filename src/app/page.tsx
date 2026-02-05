@@ -369,10 +369,10 @@ export default function Home() {
           ></Image>
         </div>
       </div>
-      <div className="text-center mt-12 text-2xl">
+      {/* <div className="text-center mt-12 text-2xl">
         This project was made possible through funding by the <span className="font-bold">Canadian Red Cross </span>
         through the <a className="text-blue-600 hover:underline" href="https://www.redcross.ca/sa/resilience-fund-youth-leading-change" target="_blank" rel="noopener noreferrer">Resilience Fund</a>
-      </div>
+      </div> */}
     </div>
   );
 }
