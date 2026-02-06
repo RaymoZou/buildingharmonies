@@ -54,10 +54,10 @@ export default function Home() {
                     </div>
 
                     <div className="bg-white rounded-lg shadow-lg border-6 border-[#7086d1] px-8 py-10 md:px-12 md:py-12 text-center">
-                        <h1 className="font-titan text-4xl md:text-7xl text-[#2A3C83] mb-4 relative z-10">
+                        <h1 className="font-lilita text-4xl md:text-7xl text-[#2A3C83] mb-4 relative z-10">
                             BUILDING HARMONIES
                         </h1>
-                        <p className="font-sniglet text-lg md:text-xl font-black italic text-[#3A4A93] mb-4 relative z-10">
+                        <p className="font-roboto text-lg md:text-xl font-extrabold italic text-[#3A4A93] mb-4 relative z-10">
                             A Community Night of Connection Through Song
                         </p>
                         <p className="text-[#3A4A93] font-bold mb-4 w-full md:px-48 leading-relaxed">
