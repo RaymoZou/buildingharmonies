@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Titan_One, Sniglet } from "next/font/google";
+import { Geist, Geist_Mono, Titan_One, Sniglet, Lilita_One, Roboto } from "next/font/google";
 import "./globals.css";
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -13,6 +13,18 @@ const titan_one = Titan_One({
 const sniglet = Sniglet({
     weight: "400",
     variable: "--font-sniglet",
+    subsets: ['latin'],
+})
+
+const lilitaOne = Lilita_One({
+    weight: "400",
+    variable: "--font-lilita-one",
+    subsets: ['latin'],
+})
+
+const roboto = Roboto({
+    weight: "400",
+    variable: "--font-roboto",
     subsets: ['latin'],
 })
 
@@ -39,7 +51,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${titan_one.variable} ${geistMono.variable}  ${sniglet.variable} antialiased min-h-screen bg-[#F7F2Eb]`}
+                className={`${geistSans.variable} ${titan_one.variable} ${geistMono.variable} ${sniglet.variable} ${lilitaOne.variable} ${roboto.variable} antialiased min-h-screen bg-[#F7F2Eb]`}
             >
                 <Header />
                 <main className="pt-24">
